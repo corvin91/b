@@ -1,0 +1,47 @@
+.head-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-ul ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.head-ul ul h1{
+    padding-right: 60px;
+}
+.head-ul input{
+    height: 50px;
+    border-width: 1px;
+    width: 300px;
+    border: 1px solid hsla(0, 0%, 40%, 1);
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.head-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 89px;
+    padding-bottom: 32px;
+    padding-top: 20px;
+}
+.head-body button{
+    height: 55px;
+    width: 109px;
+    background-color: rgb(5, 188, 5);
+    border: none;
+}
+.head-body h1{
+    padding-top: 30px;
+}
+header{
+    background-image: url("../img/slider2\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}

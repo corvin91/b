@@ -1,0 +1,41 @@
+.kompyuter{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 351px;
+    gap: 41px;
+    width: 1280px;
+    padding-top: 51px;
+    background-color: hsla(0, 100%, 99%, 1);
+    box-shadow: 0px 17px 27px -4px hsla(0, 0%, 0%, 0.25);
+    border-radius: 20px;
+}
+.kompyuter-text h1{
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;;
+line-height: 100%;
+letter-spacing: 0%;
+color: hsla(87, 100%, 36%, 1);
+}
+.kompyuter-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.kompyuter-text button{
+    background-color: hsla(87, 100%, 36%, 1);
+    border: none;
+    height: 62px;
+    width: 233px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    box-shadow: 0px 17px 27px -4px hsla(0, 0%, 0%, 0.25);
+    background-color: hsla(0, 100%, 99%, 1);
+    height: 211px;
+    width: 1276.0030517578125px;
+}
